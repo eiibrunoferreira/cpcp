@@ -61,34 +61,35 @@ function soma() {
   resultado.innerHTML = `
   <h2>${nameCliente.toUpperCase()}<h2>
   <br>
-  <h3>SEGUNDA FEIRA</h3>
-  <p>${segX} xis + ${segD} dog = R$${somaSeg}</p>
+  <h3>*🔶SEGUNDA FEIRA*</h3>
+  <p>🔸${segX} xis + ${segD} dog = R$${somaSeg}</p>
   <br>
-  <h3>TERÇA FEIRA</h3>
-  <p>${terX} xis + ${terD} dog = R$${somaTer}</p>
+  <h3>*🔶TERÇA FEIRA*</h3>
+  <p>🔸${terX} xis + ${terD} dog = R$${somaTer}</p>
   <br>
-  <h3>QUARTA FEIRA</h3>
-  <p>${quaX} xis + ${quaD} dog = R$${somaQua}</p>
+  <h3>*🔶QUARTA FEIRA*</h3>
+  <p>🔸${quaX} xis + ${quaD} dog = R$${somaQua}</p>
   <br>
-  <h3>QUINTA FEIRA</h3>
-  <p>${quiX} xis + ${quiD} dog = R$${somaQui}</p>
+  <h3>*🔶QUINTA FEIRA*</h3>
+  <p>🔸${quiX} xis + ${quiD} dog = R$${somaQui}</p>
   <br>
-  <h3>SEXTA FEIRA</h3>
-  <p>${sexX} xis + ${sexD} dog = R$${somaSex}</p>
+  <h3>*🔶SEXTA FEIRA*</h3>
+  <p>🔸${sexX} xis + ${sexD} dog = R$${somaSex}</p>
   <br>
-  <h3>SÁBADO</h3>
-  <p>${sabX} xis + ${sabD} dog = R$${somaSab}</p>
+  <h3>*🔶SÁBADO*</h3>
+  <p>🔸${sabX} xis + ${sabD} dog = R$${somaSab}</p>
   <br>
-  <h3>DOMINGO</h3>
-  <p>${domX} xis + ${domD} dog = R$${somaDom}</p>
-  <br>
-  <br>
-  <h3>SOMA TOTAL R$${somatotal}</h3>
-  <br>
-  <h4>DESCONTAR ${trocaX} xis + ${trocaD} dog = R$${somaTroca}</h4>
+  <h3>*🔶DOMINGO*</h3>
+  <p>🔸${domX} xis + ${domD} dog = R$${somaDom}</p>
   <br>
   <br>
-  <h2>SOMA FINAL R$${somafinal}</h2>`;
+  <h3>*🟥 SOMA TOTAL R$${somatotal}*</h3>
+  <br>
+  <br>
+  <h4>*🟥 DESCONTAR ${trocaX} xis + ${trocaD} dog = R$${somaTroca}*</h4>
+  <br>
+  <br>
+  <h2>*🟥 SOMA FINAL ${somafinal}*</h2>`;
 }
 
 function activeResult() {
