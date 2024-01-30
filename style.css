@@ -45,6 +45,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 2px;
+    margin-bottom: 50px;
 }
 
 .name-clientes input {
@@ -57,6 +58,28 @@ main {
     text-transform: uppercase;
 }
 
+.pending-amounts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.pending-amounts h1{
+    font-size: 25px;
+}
+
+.pending-amounts input {
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 130px;
+    padding-left: 25px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +90,7 @@ main {
     width: 500px;
     padding: 30px 0px 30px 0px;
     margin-bottom: 40px;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .containerInputs {
@@ -100,6 +123,7 @@ main {
     font-size: 18px;
     border-radius: 10px;
     text-align: center;
+    padding-left: 12px;
 }
 
 .btnFS {
@@ -132,10 +156,6 @@ main {
 
 .resultado {
     text-align: center;
-}
-
-.resultado h2 {
-    text-decoration: underline;
 }
 
 .container-resultado h1 {
