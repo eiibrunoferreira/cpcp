@@ -1,196 +1,195 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(22, 22, 22);
-    color: white;
-    gap: 50px;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  gap: 50px;
 }
 
 header {
-    margin-top: 150px;
-    display: flex;
-    text-align: center;
+  margin-top: 150px;
+  display: flex;
+  text-align: center;
 }
 
 header h1::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    margin-top: 40px;
-    transform: translate(-50%);
-    background-color: white;
-    width: 200px;
-    height: 2px;
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-top: 40px;
+  transform: translate(-50%);
+  background-color: white;
+  width: 200px;
+  height: 2px;
 }
 
 main {
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .name-clientes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 50px;
 }
 
 .name-clientes input {
-    outline: none;
-    border: none;
-    padding: 8px;
-    border-radius: 10px;
-    font-size: 18px;
-    text-align: center;
-    text-transform: uppercase;
+  outline: none;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .pending-amounts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 
-.pending-amounts h1{
-    font-size: 25px;
+.pending-amounts h1 {
+  font-size: 25px;
 }
 
 .pending-amounts input {
-    outline: none;
-    border: none;
-    padding: 8px;
-    border-radius: 10px;
-    font-size: 18px;
-    text-align: center;
-    width: 130px;
-    padding-left: 25px;
+  outline: none;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  width: 130px;
+  padding-left: 25px;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-    gap: 30px;
-    width: 500px;
-    padding: 30px 0px 30px 0px;
-    margin-bottom: 40px;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  gap: 30px;
+  width: 500px;
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .containerInputs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .containerInputs h1 {
-    font-size: 18px;
-    position: absolute;
-    margin-top: -10px;
-    background-color: rgb(22, 22, 22);
-    padding: 0px 10px 0px 10px;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -10px;
+  background-color: rgb(22, 22, 22);
+  padding: 0px 10px 0px 10px;
 }
 
 .inputs {
-    display: flex;
-    gap: 15px;
-    border: solid 2px rgb(247, 130, 63);
-    border-radius: 25px;
-    padding: 30px;
+  display: flex;
+  gap: 15px;
+  border: solid 2px rgb(247, 130, 63);
+  border-radius: 25px;
+  padding: 30px;
 }
 
 .inputs input {
-    border: none;
-    outline: none;
-    width: 60px;
-    height: 35px;
-    font-size: 18px;
-    border-radius: 10px;
-    text-align: center;
-    padding-left: 12px;
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 12px;
 }
 
 .btnFS {
-    margin-top: 50px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 20px;
-    border-radius: 25px;
-    font-size: 18px;
-    border: solid 2px transparent;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  border: solid 2px transparent;
 }
 
 .btnFS:hover {
-    border-color: rgb(247, 130, 63);
+  border-color: rgb(247, 130, 63);
 }
 
 .container-resultado {
-    border: solid 2px white;
-    border-radius: 15px;
-    margin-top: 50px;
-    display: none;
-    width: 500px;
-    padding: 30px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 30px;
+  border: solid 2px white;
+  border-radius: 15px;
+  margin-top: 50px;
+  display: none;
+  width: 500px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .resultado {
-    text-align: center;
+  text-align: center;
 }
 
 .container-resultado h1 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 @media (max-width: 800px) {
+  header h1::after {
+    width: 100px;
+    margin-top: 30px;
+  }
 
-    header h1::after {
-      width: 100px;
-      margin-top: 30px;
-    }
+  header h1 {
+    font-size: 22px;
+  }
 
-    header h1 {
-        font-size: 22px;
-    }
+  .name-clientes h1 {
+    font-size: 20px;
+  }
 
-    .name-clientes h1 {
-        font-size: 20px;
-    }
+  .name-clientes input {
+    font-size: 16px;
+  }
 
-    .name-clientes input {
-        font-size: 16px;
-    }
+  .container {
+    width: 250px;
+  }
 
-    .container {
-        width: 250px;
-    }
+  .btnFS {
+    font-size: 16px;
+    padding: 15px;
+  }
 
-    .btnFS {
-        font-size: 16px;
-        padding: 15px;
-    }
-
-    .container-resultado {
-        width: 250px;
-    }
+  .container-resultado {
+    width: 250px;
+  }
 }
