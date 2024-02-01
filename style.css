@@ -173,11 +173,15 @@ main {
   }
 
   .name-clientes h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .name-clientes input {
     font-size: 16px;
+  }
+
+  .pending-amounts h1 {
+    font-size: 20px;
   }
 
   .container {
