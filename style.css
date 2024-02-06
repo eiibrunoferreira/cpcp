@@ -197,3 +197,13 @@ main {
     width: 250px;
   }
 }
+
+@media (max-width: 400px) {
+  
+  .pending-amounts input {
+    padding-left: 0px;
+  }
+  .inputs input {
+    padding-left: 0px;
+  }
+}
