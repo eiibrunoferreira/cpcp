@@ -262,6 +262,7 @@ function soma() {
     nameCliente == "Point Hot Dog" ||
     nameCliente == "Alisson" ||
     nameCliente == "ALISSON" ||
+    nameCliente == "alisson" ||
     nameCliente == "Alison" ||
     nameCliente == "ALISON"
   ) {
@@ -390,7 +391,13 @@ function soma() {
     nameCliente == "Atacadao do dog" ||
     nameCliente == "ATACADAO DOG DOG" ||
     nameCliente == "Atacadao Do Dog" ||
-    nameCliente == "atacadao do dog"
+    nameCliente == "atacadao do dog" ||
+    nameCliente == "ATACADAO" ||
+    nameCliente == "Atacadao" ||
+    nameCliente == "atacadao" ||
+    nameCliente == "ATACADÃO" ||
+    nameCliente == "Atacadão" ||
+    nameCliente == "atacadão"
   ) {
     const somaSeg = Intl.NumberFormat("pt-br", {
       style: "currency",
