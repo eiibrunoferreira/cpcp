@@ -55,7 +55,8 @@ function soma() {
     nameCliente == "Casa do lanche" ||
     nameCliente == "Dona Nina" ||
     nameCliente == "dona nina" ||
-    nameCliente == "DONA NINA"
+    nameCliente == "DONA NINA" ||
+    nameCliente == "Dona nina"
   ) {
     const somaSeg = Intl.NumberFormat("pt-br", {
       style: "currency",
@@ -157,7 +158,8 @@ function soma() {
   } else if (
     nameCliente == "the bird" ||
     nameCliente == "THE BIRD" ||
-    nameCliente == "The Bird"
+    nameCliente == "The Bird" ||
+    nameCliente == "The bird"
   ) {
     const somaSeg = Intl.NumberFormat("pt-br", {
       style: "currency",
@@ -260,6 +262,7 @@ function soma() {
     nameCliente == "point hot dog" ||
     nameCliente == "POINT HOT DOG" ||
     nameCliente == "Point Hot Dog" ||
+    nameCliente == "Point hot dog" ||
     nameCliente == "Alisson" ||
     nameCliente == "ALISSON" ||
     nameCliente == "alisson" ||
@@ -379,11 +382,13 @@ function soma() {
     activeResult()
   } else if (
     nameCliente == "Big Dog" ||
+    nameCliente == "Big dog" ||
     nameCliente == "BIG DOG" ||
     nameCliente == "big dog" ||
     nameCliente == "bigdog" ||
     nameCliente == "Bigdog" ||
     nameCliente == "BigDog" ||
+    nameCliente == "BIGDOG" || 
     nameCliente == "Atacadão do dog" ||
     nameCliente == "ATACADÃO DOG DOG" ||
     nameCliente == "Atacadão Do Dog" ||
