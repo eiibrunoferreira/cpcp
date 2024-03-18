@@ -388,7 +388,7 @@ function soma() {
     nameCliente == "bigdog" ||
     nameCliente == "Bigdog" ||
     nameCliente == "BigDog" ||
-    nameCliente == "BIGDOG" || 
+    nameCliente == "BIGDOG" ||
     nameCliente == "Atacadão do dog" ||
     nameCliente == "ATACADÃO DOG DOG" ||
     nameCliente == "Atacadão Do Dog" ||
@@ -469,6 +469,119 @@ function soma() {
     resultado.innerHTML = `
     <br>
     <h2>*👤${nameCliente.toUpperCase()}*<h2>
+    <br>
+    <br>
+    <h3>*🟥 VALOR PENDENTE ${Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(parseFloat(pendingAmount))}*<h3>
+    <br>
+    <br>
+    <h3>*🔶SEGUNDA FEIRA*</h3>
+    <p>🔸${segX} XIS + ${segD} DOG = ${somaSeg}</p>
+    <br>
+    <h3>*🔶TERÇA FEIRA*</h3>
+    <p>🔸${terX} XIS + ${terD} DOG = ${somaTer}</p>
+    <br>
+    <h3>*🔶QUARTA FEIRA*</h3>
+    <p>🔸${quaX} XIS + ${quaD} DOG = ${somaQua}</p>
+    <br>
+    <h3>*🔶QUINTA FEIRA*</h3>
+    <p>🔸${quiX} XIS + ${quiD} DOG = ${somaQui}</p>
+    <br>
+    <h3>*🔶SEXTA FEIRA*</h3>
+    <p>🔸${sexX} XIS + ${sexD} DOG = ${somaSex}</p>
+    <br>
+    <h3>*🔶SÁBADO*</h3>
+    <p>🔸${sabX} XIS + ${sabD} DOG = ${somaSab}</p>
+    <br>
+    <h3>*🔶DOMINGO*</h3>
+    <p>🔸${domX} XIS + ${domD} DOG = ${somaDom}</p>
+    <br>
+    <br>
+    <h3>*🟥 SOMA TOTAL ${somatotal}*</h3>
+    <br>
+    <br>
+    <h4>*🔶 DESCONTAR*</h4>
+    <h4>🔸${trocaX} XIS + ${trocaD} DOG = ${somaTroca}<h4>
+    <br>
+    <br>
+    <h2>*🟥 SOMA FINAL ${somafinal}*</h2>`;
+    activeResult()
+  } else if (
+    nameCliente == "Leandro" ||
+    nameCliente == "LEANDRO" ||
+    nameCliente == "Hora do Lanche" ||
+    nameCliente == "Hora Do Lanche" ||
+    nameCliente == "Hora do lanche" ||
+    nameCliente == "hora do lanche" ||
+    nameCliente == "leandro"
+  ) {
+    const somaSeg = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(segX * 1.5 + segD * 1.5);
+    const somaTer = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(terX * 1.5 + terD * 1.5);
+    const somaQua = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(quaX * 1.5 + quaD * 1.5);
+    const somaQui = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(quiX * 1.5 + quiD * 1.5);
+    const somaSex = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(sexX * 1.5 + sexD * 1.5);
+    const somaSab = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(sabX * 1.5 + sabD * 1.5);
+    const somaDom = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(domX * 1.5 + domD * 1.5);
+
+    const somatoria =
+      segX * 1.5 +
+      segD * 1.5 +
+      terX * 1.5 +
+      terD * 1.5 +
+      quaX * 1.5 +
+      quaD * 1.5 +
+      quiX * 1.5 +
+      quiD * 1.5 +
+      sexX * 1.5 +
+      sexD * 1.5 +
+      sabX * 1.5 +
+      sabD * 1.5 +
+      domX * 1.5 +
+      domD * 1.5;
+
+    const somatotal = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(parseFloat(somatoria) + parseFloat(pendingAmount));
+    const somatotall = parseFloat(somatoria) + parseFloat(pendingAmount);
+
+    const somaTroca = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(trocaX * 1.5 + trocaD * 1.5);
+    const somaTrocaa = trocaX * 1.5 + trocaD * 1.5;
+
+    const somafinal = Intl.NumberFormat("pt-br", {
+      style: "currency",
+      currency: "BRL",
+    }).format(parseFloat(somatotall) - parseFloat(somaTrocaa));
+
+    resultado.innerHTML = `
+    <br>
+    <h2>*👤HORA DO LANCHE*<h2>
     <br>
     <br>
     <h3>*🟥 VALOR PENDENTE ${Intl.NumberFormat("pt-br", {
